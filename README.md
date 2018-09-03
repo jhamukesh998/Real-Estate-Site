@@ -1,5 +1,8 @@
 # Real-Estate-Site
-A real estate Site by making use of XAMPP and PHP.
+A real estate Site by making use of XAMPP and PHP. This was made as a part of DBMS project. The project was done by:
+1)Mukesh Jha</br>
+2)Varsha Kukreja</br>
+3)Madhur Kabra</br>
 
 ![1](https://user-images.githubusercontent.com/26517949/44988642-0e5b5300-afa9-11e8-9624-223b17961878.png)
 ![2](https://user-images.githubusercontent.com/26517949/44988643-0e5b5300-afa9-11e8-8ee9-800a83672144.png)
