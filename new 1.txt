@@ -1,0 +1,28 @@
+<?php
+$type = filter_input(INPUT_POST, 'type');
+$Location = filter_input(INPUT_POST, 'Location');
+$BHK = filter_input(INPUT_POST, 'BHK');
+$Area = filter_input(INPUT_POST, 'Area');
+$Min = filter_input(INPUT_POST, 'Min');
+$Max = filter_input(INPUT_POST, 'Max');
+// $psw-repeat = filter_input(INPUT_POST, 'psw-repeat');
+if (!empty($name)){
+if (!empty($psw)){
+$host = "localhost";
+$dbusername = "root";
+$dbpassword = "Madyspit@2098";
+$dbname = "real_estate";
+
+// Create connection
+$conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
+
+if (mysqli_connect_error()){
+  die('Connect Error ('. mysqli_connect_errno() .') '
+    . mysqli_connect_error());
+}
+else{
+  $sql = "select * from property where type='$type' and Location='$Location'
+
+
+
+?>

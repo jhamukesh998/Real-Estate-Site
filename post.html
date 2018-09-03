@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Post Your Property Here</span>
+  </div>
+
+  <form class="w3-container" action="addproperty.php" target="_blank" method="post">
+    <div class="w3-section">
+      <label>Property ID</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Property_id" required>
+    </div>
+   
+	<div class="w3-section">
+      <label>Type</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="type" required>
+    </div>
+    <div class="w3-section">
+      <label>Building Name</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Building_name" required>
+    </div>
+    <div class="w3-section">
+      <label>Area</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Area" required>
+    </div>
+    <div class="w3-section">
+      <label>BHK</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="BHK" required>
+    </div>
+    
+    <div class="w3-section">
+      <label>Price</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Price" required>
+    </div>
+    
+    <div class="w3-section">
+      <label>Location</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Location" required>
+    </div>
+    
+    
+     <div class="w3-section">
+      <label>Amenities</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Amenities" required>
+    </div>
+    
+    
+       <div class="w3-section">
+      <label>BuilderName</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Builder_Name" required>
+    </div>
+    
+    
+    <div class="w3-section">
+      <label>Postedon</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Posted_on" required>
+    </div>
+    
+    <button type="submit" class="w3-button w3-block w3-black">Post</button>
+  </form>
+
+</div>
+
+
+
+
+</body>
+</html>
